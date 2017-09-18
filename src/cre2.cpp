@@ -9,9 +9,7 @@
   For the license notice see the COPYING file.
 */
 
-#ifdef HAVE_CONFIG_H
-#  include <config.h>
-#endif
+#include <config.h>
 #include <re2/re2.h>
 #include <re2/set.h>
 #include "cre2.h"
