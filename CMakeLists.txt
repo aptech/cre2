@@ -11,6 +11,8 @@ set(PROJECT_VERSION "0.3.4")
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
+add_subdirectory(re2)
+
 if(CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
   if(MSVC_VERSION LESS 1800)
     message(FATAL_ERROR "you need Visual Studio 2013 or later")
