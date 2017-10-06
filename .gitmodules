@@ -1,4 +1,0 @@
-[submodule "re2"]
-	path = re2
-	url = git@github.com:aptech/re2.git
-	branch = master
