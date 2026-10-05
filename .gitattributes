@@ -1,0 +1,3 @@
+# Store and check out every file exactly as committed: no line-ending
+# conversion on any platform, whatever core.autocrlf is set to.
+* -text
